@@ -129,7 +129,7 @@ color: blue;
 	display: inline-flex;
 	flex: 30px 1 30px;
 	justify-content: space-around;
-	align-content:stretch;
+	align-items: center;
 	flex-direction: row;
 	width: 35%;
 	height: 35px;
@@ -152,9 +152,9 @@ color: blue;
 	margin: 0px 5px;
 	padding: 0;
 	height: auto;
-	vertical-align: middle;
+	/*vertical-align: middle;
 	position: relative;
-	top: 10px;
+	top: 10px;*/
 }
 
 .input:focus, .input:active {
